@@ -38,7 +38,6 @@ const Map = () => {
             fetch(URL).then((res) => res.json())
                 .then(data => {
                     dispatch(setTravelTimeInformation(data.rows[0].elements[0]))
-                    console.log(data.rows[0].elements[0])
                 })
         }
 
