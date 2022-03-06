@@ -14,6 +14,7 @@ const MapScreen = () => {
         <View>
 
 
+
             <View style={tw`h-1/2`}>
                 <Map/>
             </View>
