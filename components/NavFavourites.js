@@ -15,13 +15,7 @@ const data = [
         icon: "briefcase",
         location: "Work",
         destination: "London Eye, London, UK",
-    },
-    {
-        id: "789",
-        icon: "briefcase",
-        location: "Work",
-        destination: "London Eye, London, UK",
-    },
+    }
 ];
 
 const NavFavourites = () => {
